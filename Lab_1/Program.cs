@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Lab_1;
+
+class Program
+{
+    public static void Main()
+    {
+        var calculator = new Calculator();
+        calculator.Run();
+    }
+}
+
+
