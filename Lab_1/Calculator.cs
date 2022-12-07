@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using Lab_1.Operations;
 
 namespace Lab_1;
-
+/// <summary>
+/// калькулятор
+/// </summary>
 public class Calculator
 {
     private List<IOperation> operations;

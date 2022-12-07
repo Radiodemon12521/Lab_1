@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab_1.Operations
 {
+/// <summary>
+/// умножение 
+/// </summary>
     internal class Multiply : IOperation
     {
         public string Name { get; set; } = "Умножение";

@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Lab_1.Operations;
 
+/// <summary>
+/// деление 
+/// </summary>
 internal class Divide : IOperation
 {
     public string Name { get; set; } = "Деление";

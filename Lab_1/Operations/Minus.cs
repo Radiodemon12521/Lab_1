@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab_1.Operations
 {
+    /// <summary>
+    /// вычитание
+    /// </summary>
     internal class Minus : IOperation
     {
           public string Name { get; set; } = "Вычитание";
