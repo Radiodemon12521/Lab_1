@@ -9,7 +9,7 @@ namespace Lab_1.Operations
 /// <summary>
 /// умножение 
 /// </summary>
-    internal class Multiply : IOperation
+    public class Multiply : IOperation
     {
         public string Name { get; set; } = "Умножение";
         public double Calculate(double first, double second)

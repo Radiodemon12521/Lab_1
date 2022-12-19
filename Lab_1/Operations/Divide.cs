@@ -8,7 +8,7 @@ namespace Lab_1.Operations;
 /// <summary>
 /// деление 
 /// </summary>
-internal class Divide : IOperation
+public class Divide : IOperation
 {
     public string Name { get; set; } = "Деление";
     public double Calculate(double first, double second)

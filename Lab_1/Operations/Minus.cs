@@ -9,7 +9,7 @@ namespace Lab_1.Operations
     /// <summary>
     /// вычитание
     /// </summary>
-    internal class Minus : IOperation
+    public class Minus : IOperation
     {
           public string Name { get; set; } = "Вычитание";
         public double Calculate(double first, double second)

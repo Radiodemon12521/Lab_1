@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_1.Operations
 {
-    internal class Plus : IOperation
+    public class Plus : IOperation
     {
         public string Name { get; set; } = "Сложение";
 
